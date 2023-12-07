@@ -69,13 +69,13 @@ h1{
     font-size: 1.8rem;
 }
 
-.cta-btns {
+.cta-bttns {
   display: flex;
   margin: 5em 0;
  
 }
 
-.cta-btns, .secondary-cta {
+.cta-bttns, .secondary-cta {
     display: flex;
     gap: 2em;
 }
