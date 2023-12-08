@@ -84,7 +84,7 @@ h1{
 background-color: beige;
 font-size: 1.8rem;
 font-weight: bold;
-color: reds;
+color: red;
 color: black;
 text-decoration: none;
 border-radius: 1.9em;
@@ -126,7 +126,7 @@ align-items: center;
 }
 
 p.employees{
-    font: size 3.3rem;
+  font-size: 3.3rem;
     margin: 0;
     font-weight: 200;
     line-height: 100%;
@@ -226,7 +226,7 @@ font-weight: bold;
 
 }
 
-/*------Product page-----*/
+/*------collections page-----*/
 
 .video {
     background: white;
@@ -267,64 +267,55 @@ font-weight: bold;
 
 /*------contact page-----*/
 
-.register {
-    background-color: black;
+
+form {
+  border: 3px solid bla;
+  font-family: Arial;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* Add padding to containers */
 .container {
-  padding: 16px;
+  padding: 20px;
   background-color: white;
 }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=submit] {
   width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for the submit button */
-.registerbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
+  padding: 12px;
   margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
   border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
 }
 
-.registerbtn:hover {
-  opacity: 1;
+input[type=submit]:hover {
+  opacity: 0.8;
+
+/* Confirmation Page */
+
+.confbttn {
+
+  flex-wrap: wrap;
 }
 
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
-}
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
+.button {
+  align-items: center;
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
   text-align: center;
-}
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;}
